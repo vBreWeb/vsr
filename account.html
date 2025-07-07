@@ -37,9 +37,9 @@
                 return false;
             }
 
-            // ✅ Jika validasi berhasil, redirect ke halaman lain
+            // ✅ Kalau semua validasi sukses, redirect ke beranda.html
             window.location.href = "form_awal.html";
-            return false; // untuk cegah submit form secara default
+            return false; // cegah submit ke server
         }
     </script>
 </head>
@@ -63,7 +63,10 @@
             <label for="password">Konfirmasi</label>
             <input type="password" id="password" name="retype" placeholder="masukkan password..">
 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" >
+             
+
+
         </form>
     </div>
 </body>
